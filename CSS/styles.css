@@ -1,3 +1,4 @@
+/* All Pages */
 body{
     background: rgb(200,219,241);
     background: radial-gradient(circle, rgba(200,219,241,1) 0%, rgba(238,174,202,1) 100%);
@@ -24,6 +25,7 @@ a:hover{
 
 a{
     text-decoration: none;
+    color: black;
 }
 
 
@@ -31,57 +33,36 @@ p{
     font-family: Handlee;
     letter-spacing: 1px;
 }
+/* All Pages */
 
 
-
-
-
-/* contact */
-.form{
-    height: 375px;
-    border: 1px solid black;
-    padding: 12px;
-    margin: 70px;
+/* Index Page */
+.RealHero{
+    height: 700px;
+    width: auto;
+    background-image: url(../IMG/heroimage.jpg);
+    background-size: cover;
+    background-position: center;
     text-align: center;
 }
-/* contact */
 
 
-
-
-/* about */
-.columns{
-    /* height: 50px; */
-    width: 33%;
-    /* background-color: red; */
-    /* margin: 2px; */
-    display: inline-block;
-    /* padding-left: 2px; */
-
-}
-
-.pfp{
-    padding-left: 70px;
-}
-
-
-#AboutMe{
+.button{
+    margin: 50px;
+    padding: 30px;
     font-family: Handlee;
-    text-align: center;
-    /* margin: 2px; */
+    font-size: 13px;
+    background-color: transparent;
+}
+
+.resin{
+    height: 500px;
+    width: 1500px;
+    padding-left: 170px;
 }
 
 
-.visuals{
-    padding-left: 10px;
-}
-/* about */
-
-/* index content */
 .Hero-Item{
-    /* height: 100px;
-    width: 100px; */
-    /* background-color: red; */
     display: inline-block;
 }
 
@@ -90,8 +71,6 @@ p{
     width: 23%;
     height: 30vh;
     padding: 40px;
-    /* float: right; */
-    /* background-position: center; */
 }
 
 
@@ -110,10 +89,50 @@ p{
     float: right;
     padding: 70px;
 }
-/* index content */
+/* Index Page */
+
+
+/* Contact Page */
+.form{
+    height: 375px;
+    border: 1px solid black;
+    padding: 12px;
+    margin: 70px;
+    text-align: center;
+}
+
+
+.googlemaps{
+    text-align: center;
+}
+/* Contact Page */
+
+
+/* About Page */
+.columns{
+    width: 33%;
+    display: inline-block;
+}
+
+.pfp{
+    padding-left: 70px;
+}
+
+
+#AboutMe{
+    font-family: Handlee;
+    text-align: center;
+}
+
+
+.visuals{
+    padding-left: 10px;
+}
+/* About Page */
 
 
 
+/* Footer Content */
 footer{
     border: 2px solid black;
     margin: 70px;
@@ -121,13 +140,9 @@ footer{
 }
 
 
-
 .footer{
-    /* height: 150px; */
     width: auto;
-    /* border: 2px solid black; */
     margin: 70px;
-    /* text-align: center; */
     font-family: Great Vibes;
     font-size: 15px;
     letter-spacing: 2px;
@@ -135,7 +150,6 @@ footer{
 
 
 .Centerside{
-    /* float: center; */
     padding: 5px;
     font-size: 12px;
     text-align: center;
@@ -146,32 +160,14 @@ footer{
     float: right;
     position: relative;
     bottom: 40px;
-    /* position: absolute;
-    right: 20px; */
 }
 
 .footnav{
-    /* float: right; */
     padding: 40px;
     display: inline-block;
-    /* padding-bottom: 1000px; */
 }
 
 .navitems{
     display: inline-block;
 }
-
-footerlinks{
-    background-color: red;
-}
-
-
-footer-item{
-    display: in;
-}
-
-/* about page */
-#aboutme{
-    text-align: center;
-}
-/* about page */
+/* Footer Content */
